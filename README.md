@@ -1,5 +1,5 @@
 # downsampling
-"""Python script for downsampling batches of fastq files according to sample name using the seqtk toolkit.
+Python script for downsampling batches of fastq files according to sample name using the seqtk toolkit.
 
 This script will downsample the paired reads to a given number in the forward and reverse fastq files for a list of given samples in a text file.
 The samples in the text file must be formatted as a list and sample numbers given in the format *SAMPLE_NUMBER* for example: *ABC012345*
@@ -13,4 +13,4 @@ for example:
 python Downsample_txt.py 20000000 samples.txt
 
 If number of reads and name of text file are not included then the script will not run.
-Use -h for help with positional arguements."""
+Use -h for help with positional arguements.
